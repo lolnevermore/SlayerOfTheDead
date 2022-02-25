@@ -1,7 +1,9 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
+    - MovingLift
     - scr_CharacterController
+    - scr_WeaponAnimation
     - scr_WeaponController
     Unity.InputSystem.dll:
     - UnityEngine.InputSystem.InputSettings
@@ -41,18 +43,30 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 64
       Script: {instanceID: 0}
+    - Class: 65
+      Script: {instanceID: 0}
+    - Class: 74
+      Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
     - Class: 89
+      Script: {instanceID: 0}
+    - Class: 91
+      Script: {instanceID: 0}
+    - Class: 95
       Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 4124}
+      Script: {instanceID: 2534}
     - Class: 114
-      Script: {instanceID: 18964}
+      Script: {instanceID: 4126}
+    - Class: 114
+      Script: {instanceID: 5596}
+    - Class: 114
+      Script: {instanceID: 5844}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 136
@@ -214,6 +228,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: PlayerInputManagerEditor
+  - hash:
+      serializedVersion: 2
+      Hash: 9baa44549e6a80a71017d94805f64066
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: MovingLift
   - hash:
       serializedVersion: 2
       Hash: a1aa98c78061c6f03a8c124cda576e67
@@ -426,6 +446,12 @@ ScriptsOnlyBuild:
     className: InputActionReference
   - hash:
       serializedVersion: 2
+      Hash: a286a97b8316f2ebbd1fd111055d4487
+    assemblyName: Unity.InputSystem.Recorder.dll
+    namespaceName: UnityEngine.InputSystem
+    className: InputRecorder
+  - hash:
+      serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -486,7 +512,7 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: 9631c0dc8dd134f0e10e965899e2ae54
+      Hash: 3758f531d6b5a4c97d176cb2661b2ae5
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: scr_CharacterController
@@ -562,6 +588,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.InputSystem.dll
     namespaceName: UnityEngine.InputSystem.Editor
     className: InputDebuggerWindow
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Unity.InputSystem.Recorder.dll
+    namespaceName: UnityEngine.InputSystem.Editor
+    className: InputRecorderInspector
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
@@ -678,6 +710,12 @@ ScriptsOnlyBuild:
     className: InputSystemObject
   - hash:
       serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scr_WeaponAnimation
+  - hash:
+      serializedVersion: 2
       Hash: 8220b46879dc5e37db1b940c938f5744
     assemblyName: Unity.Timeline.dll
     namespaceName: UnityEngine.Timeline
@@ -720,17 +758,18 @@ ScriptsOnlyBuild:
     className: TouchInputModule
   - hash:
       serializedVersion: 2
+      Hash: 88bc61af25f6d7de8d5555fa9160c678
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: scr_WeaponController
+  - hash:
+      serializedVersion: 2
       Hash: 0dbad68497410b5f862f5f82026e88ea
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CustomDeviceUsages
-  - hash:
-      serializedVersion: 2
-      Hash: 3b02d3c244012cbf5836ac6a3ecf0283
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: scr_WeaponController
   platform: 19
   scenePathNames:
   - Assets/Scenes/TasScene.unity
-  playerPath: C:/Users/xneme/OneDrive/Desktop/Useful/Group Project/Test/FPS Character.exe
+  playerPath: C:/Users/sebas/OneDrive/Desktop/Seb's Games Design/Year 2/Term 2/Comp
+    1847/CW2/FPS Character.exe
