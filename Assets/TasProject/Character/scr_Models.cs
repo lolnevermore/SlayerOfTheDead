@@ -6,6 +6,14 @@ public static class scr_Models
 {
     #region - player -
 
+    public enum PlayerStance
+    {
+        Stand,
+        Crouch,
+        Prone
+
+
+    }
 
     [Serializable]
 
@@ -21,7 +29,11 @@ public static class scr_Models
 
 
 
-        [Header("Movement")]
+        [Header("Movement Settings")]
+        public bool SprintingHold;
+        public float MovementSmoothing;
+
+        [Header("Movement - Walking")]
         public float WalkingForwardSpeed;
         public float WalkingBackwardsSpeed;
         public float WalkingStrafeSpeed;
@@ -34,9 +46,28 @@ public static class scr_Models
         [Header("Jumping")]
         public float JumpingHeight;
         public float JumpingFalloff;
+        public float FallingSmoothing;
+
+        [Header("SpeedEffectors")]
+        public float SpeedEffector = 1;
+        public float CrouchSpeedEffector;
+        public float ProneSpeedEffector;
+        public float FallingSpeedEffector;
+
+
+        [Header("Is Grounded / Falling")]
+        public float isGroundedRadius;
+        public float isFallingSpeed;
 
     }
 
+
+    [Serializable]
+    public class CharacterStance
+    {
+        public float CameraHeight;
+        public CapsuleCollider StanceCollider;
+    }
     #endregion
 
 
@@ -52,7 +83,7 @@ public static class scr_Models
     public class WeaponSettingsModel
 
     {
-        [Header("Sway")]
+        [Header("Weapon Sway")]
         public float    SwayAmount;
         public bool     SwayYInverted;
         public bool     SwayXInverted;
@@ -62,7 +93,12 @@ public static class scr_Models
         public float    SwayClampY;
 
 
-
+        [Header("Weapon Movement Sway")]
+        public float MovementSwayX;
+        public float MovementSwayY;
+        public bool MovementSwayYInverted;
+        public bool MovementSwayXInverted;
+        public float MovementSwaySmoothing;
     }
 
 
