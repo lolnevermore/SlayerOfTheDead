@@ -2668,7 +2668,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh19202
+  m_Name: pb_Mesh19322
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -3430,14 +3430,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 459130794}
-  m_LocalRotation: {x: 0.19337583, y: 0.6411391, z: 0.21445422, w: 0.7110245}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalRotation: {x: 0.027548173, y: 0.5760206, z: 0.35390717, w: 0.7363363}
+  m_LocalPosition: {x: -0.016920283, y: -0.0035934483, z: -0.004162711}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 544493943}
   m_Father: {fileID: 718361520}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 84.083, z: 33.568}
+  m_LocalEulerAnglesHint: {x: -21.54, y: 68.898, z: 36.473}
 --- !u!4 &460672294 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f128fcf331cdf4b4480d621796bd49e0, type: 3}
@@ -13707,16 +13707,16 @@ MonoBehaviour:
     ViewYSensitivity: -30
     ViewXInverted: 0
     ViewYInverted: 0
-    SprintingHold: 0
+    SprintingHold: 1
     MovementSmoothing: 0.2
     WalkingForwardSpeed: 5
     WalkingBackwardsSpeed: 2
     WalkingStrafeSpeed: 3
-    RunningForwardSpeed: 15
-    RunningStrafeSpeed: 10
+    RunningForwardSpeed: 10
+    RunningStrafeSpeed: 4
     JumpingHeight: 10
     JumpingFalloff: 0.4
-    FallingSmoothing: 0
+    FallingSmoothing: 0.1
     SpeedEffector: 1
     CrouchSpeedEffector: 0.6
     ProneSpeedEffector: 0.2
@@ -16667,6 +16667,7 @@ GameObject:
   - component: {fileID: 2053083166}
   - component: {fileID: 2053083165}
   - component: {fileID: 2053083164}
+  - component: {fileID: 2053083167}
   m_Layer: 6
   m_Name: Camera
   m_TagString: Untagged
@@ -16739,6 +16740,18 @@ Transform:
   m_Father: {fileID: 629897120}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2053083167
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2053083163}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4bbbd7dbfd4d23645b2fc16a8ffc0c28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &2057671104 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: f128fcf331cdf4b4480d621796bd49e0, type: 3}
