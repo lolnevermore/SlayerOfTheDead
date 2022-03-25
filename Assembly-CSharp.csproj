@@ -9,7 +9,11 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
+<<<<<<< Updated upstream
     <ProjectGuid>{A0DC150A-0F63-931A-459E-488109A277F8}</ProjectGuid>
+=======
+    <ProjectGuid>{5DAAA65B-5DBD-2463-173F-97164E747468}</ProjectGuid>
+>>>>>>> Stashed changes
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -60,16 +64,44 @@
     <Compile Include="Assets\TasProject\Scripts\scr_Target.cs" />
     <Compile Include="Assets\Samples\Input System\1.3.0\Custom Device\CustomDevice.cs" />
     <Compile Include="Assets\TasProject\Scripts\scr_Models.cs" />
+    <Compile Include="Assets\TasProject\Scripts\scr_DieCharacter.cs" />
     <Compile Include="Assets\SebBProject\MovingLift.cs" />
     <Compile Include="Assets\Samples\Input System\1.3.0\Custom Binding Composite\CustomComposite.cs" />
     <Compile Include="Assets\TasProject\Inputs\DefaultInput.cs" />
     <Compile Include="Assets\TasProject\Scripts\scr_CharacterController.cs" />
+    <Compile Include="Assets\TasProject\Scripts\scr_PlayerManager.cs" />
     <Compile Include="Assets\TasProject\Scripts\scr_Bullet.cs" />
     <Compile Include="Assets\TasProject\Scripts\LockCursor.cs" />
     <Compile Include="Assets\TasProject\Scripts\scr_WeaponAnimation.cs" />
     <Compile Include="Assets\TasProject\Scripts\scr_WeaponController.cs" />
     <Compile Include="Assets\Samples\Input System\1.3.0\Custom Device Usages\CustomDeviceUsages.cs" />
+<<<<<<< Updated upstream
     <Compile Include="Assets\SebBProject\ZombiePatrol.cs" />
+=======
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+>>>>>>> Stashed changes
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -690,11 +722,19 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Unity.InputSystem.Recorder.csproj">
+<<<<<<< Updated upstream
       <Project>{35C649A9-615B-E289-7FB6-68EF1385B545}</Project>
       <Name>Unity.InputSystem.Recorder</Name>
     </ProjectReference>
     <ProjectReference Include="Unity.InputSystem.InGameHints.csproj">
       <Project>{5545746C-9E1C-D036-E0B5-72D8363248F4}</Project>
+=======
+      <Project>{E2AC2CDC-339D-F933-726B-D7BE6D7662C7}</Project>
+      <Name>Unity.InputSystem.Recorder</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.InputSystem.InGameHints.csproj">
+      <Project>{58BA9BF1-C439-2587-0C33-952D99FC7A1A}</Project>
+>>>>>>> Stashed changes
       <Name>Unity.InputSystem.InGameHints</Name>
     </ProjectReference>
   </ItemGroup>
