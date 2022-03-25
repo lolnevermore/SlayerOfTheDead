@@ -3,7 +3,22 @@ guid: d06634b1732ce934eb32e97b5ec50886
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Metal1
+    second: {fileID: 2100000, guid: bbb4328eb852e5c419750fcc1635b32f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: StaircaseTEX
+    second: {fileID: 2100000, guid: e1ef4710349d70a478637fc6ac66e3da, type: 2}
+  - first:
+      type: UnityEngine:Texture2D
+      assembly: UnityEngine.CoreModule
+      name: Floor_Diffuse
+    second: {fileID: 2800000, guid: 5895928f19013ad4b846e68f9e42bdd3, type: 3}
   materials:
     materialImportMode: 2
     materialName: 0
