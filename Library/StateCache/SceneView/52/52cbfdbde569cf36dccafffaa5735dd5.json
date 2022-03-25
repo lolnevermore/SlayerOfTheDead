@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":false,"showVisualEffectGraphs":false,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":689.0,"y":419.0,"z":0.0},"rotation":{"x":0.011669247411191464,"y":-0.06833687424659729,"z":0.0010128167923539878,"w":0.9976611137390137},"size":103.07764434814453,"orthographic":false}
 =======
 ﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":false,"showVisualEffectGraphs":false,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":172.66390991210938,"y":4.833791732788086,"z":-168.8768768310547},"rotation":{"x":-0.07779485732316971,"y":-0.6956978440284729,"z":0.07637036591768265,"w":-0.7103431224822998},"size":43.468101501464847,"orthographic":false}
 >>>>>>> Stashed changes
+=======
+﻿{"cameraMode":{"drawMode":0,"name":"Shaded","section":"Shading Mode"},"sceneLighting":true,"audioPlay":false,"sceneViewState":{"m_AlwaysRefresh":false,"showFog":false,"showSkybox":false,"showFlares":false,"showImageEffects":false,"showParticleSystems":false,"showVisualEffectGraphs":false,"m_FxEnabled":true},"in2DMode":false,"pivot":{"x":184.1386260986328,"y":9.23725414276123,"z":-153.37486267089845},"rotation":{"x":0.039517004042863849,"y":-0.9567121267318726,"z":0.15609167516231538,"w":0.242676243185997},"size":3.091308355331421,"orthographic":false}
+>>>>>>> parent of 3d46bd71 (Character Health)

@@ -14,13 +14,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_PixelRect:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -1920
     y: 44
     width: 1920
     height: 997
+=======
+    x: 0
+    y: 42
+    width: 1536
+    height: 782
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
 =======
     x: 0
@@ -105,9 +112,9 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
-    height: 997
-  m_MinSize: {x: 875, y: 300}
+    width: 1536
+    height: 782
+  m_MinSize: {x: 875, y: 542}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -130,7 +137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1920
+    width: 1536
     height: 30
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -154,8 +161,8 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 977
-    width: 1920
+    y: 762
+    width: 1536
     height: 20
   m_MinSize: {x: 0, y: 0}
   m_MaxSize: {x: 0, y: 0}
@@ -179,13 +186,20 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 30
+<<<<<<< HEAD
     width: 1920
     height: 947
 <<<<<<< Updated upstream
   m_MinSize: {x: 709, y: 492}
   m_MaxSize: {x: 18004, y: 14042}
+=======
+    width: 1536
+    height: 732
+  m_MinSize: {x: 708, y: 492}
+  m_MaxSize: {x: 18003, y: 14042}
+>>>>>>> parent of 3d46bd71 (Character Health)
   vertical: 0
-  controlID: 141
+  controlID: 18
 --- !u!114 &6
 =======
   m_MinSize: {x: 911, y: 342}
@@ -212,13 +226,17 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1081
-    height: 947
+    width: 865
+    height: 732
   m_MinSize: {x: 201, y: 342}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   controlID: 82
+=======
+  controlID: 128
+>>>>>>> parent of 3d46bd71 (Character Health)
 --- !u!114 &7
 =======
   controlID: 48
@@ -240,9 +258,14 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
+<<<<<<< HEAD
     width: 1081
 <<<<<<< Updated upstream
     height: 607
+=======
+    width: 865
+    height: 356
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 4000, y: 4000}
 =======
@@ -272,6 +295,7 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     y: 607
     width: 1081
@@ -281,6 +305,11 @@ MonoBehaviour:
     width: 1081
     height: 486
 >>>>>>> Stashed changes
+=======
+    y: 356
+    width: 865
+    height: 376
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
@@ -307,14 +336,14 @@ MonoBehaviour:
   - {fileID: 11}
   m_Position:
     serializedVersion: 2
-    x: 1081
+    x: 865
     y: 0
-    width: 486
-    height: 947
+    width: 389
+    height: 732
   m_MinSize: {x: 232, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 142
+  controlID: 19
 --- !u!114 &10
 =======
 --- !u!114 &11
@@ -335,6 +364,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 232
     y: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     width: 486
     height: 566
@@ -342,6 +372,10 @@ MonoBehaviour:
     width: 254
     height: 947
 >>>>>>> Stashed changes
+=======
+    width: 389
+    height: 461
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 16}
@@ -366,9 +400,9 @@ MonoBehaviour:
   m_Position:
     serializedVersion: 2
     x: 0
-    y: 566
-    width: 486
-    height: 381
+    y: 461
+    width: 389
+    height: 271
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
   m_ActualView: {fileID: 17}
@@ -393,12 +427,12 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1567
+    x: 1254
     y: 0
-    width: 353
-    height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+    width: 282
+    height: 732
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -421,10 +455,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Game
-    m_Image: {fileID: -6423792434712278376, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 4621777727084837110, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -1920
     y: 681
@@ -436,6 +471,12 @@ MonoBehaviour:
     width: 1080
     height: 465
 >>>>>>> Stashed changes
+=======
+    x: 0
+    y: 428
+    width: 864
+    height: 355
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ViewDataDictionary: {fileID: 0}
   m_SerializedViewNames: []
   m_SerializedViewValues: []
@@ -443,11 +484,15 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_TargetSize: {x: 530, y: 298}
 =======
   m_TargetSize: {x: 789, y: 444}
 >>>>>>> Stashed changes
+=======
+  m_TargetSize: {x: 594, y: 334}
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -462,6 +507,7 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_HBaseRangeMin: -265
     m_HBaseRangeMax: 265
@@ -473,6 +519,12 @@ MonoBehaviour:
     m_VBaseRangeMin: -222
     m_VBaseRangeMax: 222
 >>>>>>> Stashed changes
+=======
+    m_HBaseRangeMin: -118.8
+    m_HBaseRangeMax: 118.8
+    m_VBaseRangeMin: -66.8
+    m_VBaseRangeMax: 66.8
+>>>>>>> parent of 3d46bd71 (Character Health)
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -490,6 +542,7 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
+<<<<<<< HEAD
       width: 1080
 <<<<<<< Updated upstream
       height: 298
@@ -500,12 +553,19 @@ MonoBehaviour:
     m_Scale: {x: 1, y: 1}
     m_Translation: {x: 540, y: 222}
 >>>>>>> Stashed changes
+=======
+      width: 864
+      height: 334
+    m_Scale: {x: 2, y: 2}
+    m_Translation: {x: 432, y: 167}
+>>>>>>> parent of 3d46bd71 (Character Health)
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
+<<<<<<< HEAD
       x: -540
 <<<<<<< Updated upstream
       y: -149
@@ -522,6 +582,15 @@ MonoBehaviour:
   m_defaultScale: 1
   m_LastWindowPixelSize: {x: 1080, y: 465}
 >>>>>>> Stashed changes
+=======
+      x: -216
+      y: -83.5
+      width: 432
+      height: 167
+    m_MinimalGUI: 1
+  m_defaultScale: 2
+  m_LastWindowPixelSize: {x: 2160, y: 887.5}
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
@@ -543,10 +612,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Scene
-    m_Image: {fileID: 2593428753322112591, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 8634526014445323508, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -1920
     y: 74
@@ -558,6 +628,12 @@ MonoBehaviour:
     width: 1080
     height: 440
 >>>>>>> Stashed changes
+=======
+    x: 0
+    y: 72
+    width: 864
+    height: 335
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ViewDataDictionary: {fileID: 0}
   m_ShowContextualTools: 0
   m_WindowGUID: 8121c81ff83f0bb4fb4b7871d5ec67f1
@@ -570,6 +646,7 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: {x: 689, y: 419, z: 0}
     speed: 2
@@ -579,6 +656,11 @@ MonoBehaviour:
     speed: 2
     m_Value: {x: 172.66391, y: 4.8337917, z: -168.87688}
 >>>>>>> Stashed changes
+=======
+    m_Target: {x: 184.13863, y: 9.237254, z: -153.37486}
+    speed: 2
+    m_Value: {x: 184.13863, y: 9.237254, z: -153.37486}
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -625,13 +707,18 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_Target: {x: 0.011669247, y: -0.068336874, z: 0.0010128168, w: 0.9976611}
+=======
+    m_Target: {x: 0.039517004, y: -0.9567121, z: 0.15609168, w: 0.24267624}
+>>>>>>> parent of 3d46bd71 (Character Health)
     speed: 2
-    m_Value: {x: 0.011668461, y: -0.06833227, z: 0.0010127486, w: 0.99759394}
+    m_Value: {x: 0.039514713, y: -0.9566567, z: 0.15608263, w: 0.24266219}
   m_Size:
-    m_Target: 103.077644
+    m_Target: 3.0913084
     speed: 2
+<<<<<<< HEAD
     m_Value: 103.077644
 =======
     m_Target: {x: -0.07779486, y: -0.69569784, z: 0.076370366, w: -0.7103431}
@@ -642,6 +729,9 @@ MonoBehaviour:
     speed: 2
     m_Value: 41.596268
 >>>>>>> Stashed changes
+=======
+    m_Value: 3.0913084
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -682,7 +772,7 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Animator
-    m_Image: {fileID: -1673928668082335149, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: 1711060831702674872, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
@@ -760,10 +850,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Hierarchy
-    m_Image: {fileID: 7966133145522015247, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -3734745235275155857, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -839
     y: 74
@@ -789,6 +880,19 @@ MonoBehaviour:
       m_LastClickedID: 0
       m_ExpandedIDs: e869fcffd216fdfff03ffeff6ef2fffff2510000565200006c520000a4520000e8520000045300004a5300008a530000bc530000d65300005e5400006a5400009a540000b45400000a5500008455000052560000d256000062570000
 >>>>>>> Stashed changes
+=======
+    x: 865.2
+    y: 72
+    width: 387
+    height: 440
+  m_ViewDataDictionary: {fileID: 0}
+  m_SceneHierarchy:
+    m_TreeViewState:
+      scrollPos: {x: 0, y: 317}
+      m_SelectedIDs: de660000
+      m_LastClickedID: 26334
+      m_ExpandedIDs: 8841ffff1a9fffff6afbffff
+>>>>>>> parent of 3d46bd71 (Character Health)
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -828,10 +932,11 @@ MonoBehaviour:
   m_MaxSize: {x: 10000, y: 10000}
   m_TitleContent:
     m_Text: Project
-    m_Image: {fileID: -5467254957812901981, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -5179483145760003458, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -839
     y: 640
@@ -843,6 +948,12 @@ MonoBehaviour:
     width: 230
     height: 926
 >>>>>>> Stashed changes
+=======
+    x: 865.2
+    y: 533.2
+    width: 387
+    height: 250
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ViewDataDictionary: {fileID: 0}
   m_SearchFilter:
     m_NameFilter: 
@@ -857,33 +968,45 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     - Assets/TasProject/Scripts
 =======
     - Assets/TasProject/Prefabs
 >>>>>>> Stashed changes
+=======
+    - Assets/Scenes
+>>>>>>> parent of 3d46bd71 (Character Health)
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 0
   m_StartGridSize: 64
   m_LastFolders: []
   m_LastFoldersGridSize: -1
+<<<<<<< HEAD
 <<<<<<< Updated upstream
   m_LastProjectPath: C:\Users\tc7446a\OneDrive - University of Greenwich\Documents\GitHub\SlayerOfTheDead
 =======
   m_LastProjectPath: C:\Users\sa2020v\OneDrive - University of Greenwich\Desktop\SlayerOfTheDead
 >>>>>>> Stashed changes
+=======
+  m_LastProjectPath: C:\Users\sebas\OneDrive\Documents\GitHub\GroupProjectYr2
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 22400000
     m_LastClickedID: 16418
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     m_ExpandedIDs: 00000000485000004456000046560000485600004a5600004c5600004e56000050560000525600005456000056560000585600005a5600005c5600005e56000060560000
 =======
     m_ExpandedIDs: 000000008c450000fc580000f0590000f2590000f4590000f6590000f8590000fa590000fc590000fe590000005a0000025a0000045a0000065a0000085a00000a5a00000c5a00000e5a0000105a0000125a0000
 >>>>>>> Stashed changes
+=======
+    m_ExpandedIDs: 00000000504f0000b2550000b4550000b6550000b8550000ba550000bc550000be550000c0550000c2550000c4550000c6550000c8550000ca550000cc550000ce550000d0550000d2550000d4550000d6550000
+>>>>>>> parent of 3d46bd71 (Character Health)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -908,6 +1031,7 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_AssetTreeState:
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     scrollPos: {x: 0, y: 694}
     m_SelectedIDs: 
@@ -919,6 +1043,12 @@ MonoBehaviour:
     m_LastClickedID: 0
     m_ExpandedIDs: ffffffff000000008c450000f0590000f2590000f4590000f6590000f8590000fa590000fc590000fe590000005a0000025a0000045a0000065a0000085a00000a5a00000c5a00000e5a0000105a0000125a0000965a0000
 >>>>>>> Stashed changes
+=======
+    scrollPos: {x: 0, y: 380}
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: ffffffff00000000504f0000b2550000b4550000b6550000b8550000ba550000bc550000be550000c0550000c2550000c4550000c6550000c8550000ca550000cc550000ce550000d0550000d2550000d4550000d6550000
+>>>>>>> parent of 3d46bd71 (Character Health)
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -990,14 +1120,14 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Console
-    m_Image: {fileID: -4327648978806127646, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -4950941429401207979, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
-    x: -1920
-    y: 712
-    width: 1080
-    height: 288
+    x: 0
+    y: 428
+    width: 863.8
+    height: 355
   m_ViewDataDictionary: {fileID: 0}
 --- !u!114 &19
 MonoBehaviour:
@@ -1015,10 +1145,11 @@ MonoBehaviour:
   m_MaxSize: {x: 4000, y: 4000}
   m_TitleContent:
     m_Text: Inspector
-    m_Image: {fileID: -2667387946076563598, guid: 0000000000000000d000000000000000, type: 0}
+    m_Image: {fileID: -440750813802333266, guid: 0000000000000000d000000000000000, type: 0}
     m_Tooltip: 
   m_Pos:
     serializedVersion: 2
+<<<<<<< HEAD
 <<<<<<< Updated upstream
     x: -353
     y: 74
@@ -1028,6 +1159,12 @@ MonoBehaviour:
 >>>>>>> Stashed changes
     width: 352
     height: 926
+=======
+    x: 1254
+    y: 72
+    width: 281
+    height: 711
+>>>>>>> parent of 3d46bd71 (Character Health)
   m_ViewDataDictionary: {fileID: 0}
   m_ObjectsLockedBeforeSerialization: []
   m_InstanceIDsLockedBeforeSerialization: 
